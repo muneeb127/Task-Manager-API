@@ -8,7 +8,7 @@ const taskRouter = require('./routers/task');
 const app = express();
 
 //Get port for heroku or get localhost port
-const port = process.env.port;
+const port = process.env.PORT;
 
 // This function runs b/w the request comming to the server and 
 // the router handler
